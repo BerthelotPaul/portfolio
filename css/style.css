@@ -1,42 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Fond et police de la page*/
-html {
+body {
     background-color: #0A0A26;
     font-family: 'Roboto', sans-serif;
 }
 
-.accueil {
-    text-align: center;
-    margin-top: 18%;
+.navbar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
 }
 
-.titre {
-    margin-top: 24%;
-    text-align: center;
+.accueil{
+    display: flex;
+    position: fixed;
+    top: 40%;
+    left: 42%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.propos{
-    margin-top: 3%;
-    margin-bottom: 20%;
-    text-align: center;
-}
-.propos>* {
-    margin: 1%;
-}
 
-.logo{
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 7px;
-}
+
+
+
+
+
+/** Balise CSS **/
+
+/* Titre de niveau 1 */
 h1 {
     font-size: 60px;
     color: aliceblue;
 }
 
+/* Titre de niveau 2 */
 h2 {
     font-size: 20px;
     color: aliceblue;
