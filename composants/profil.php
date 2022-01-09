@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Paul Berthelot</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/icon.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/icon.css">
 </head>
 
 <body>
@@ -17,10 +17,10 @@
         <i class="gg-work-alt"></i>
         <i class="gg-mail"></i>
     </div>
-    
-    <div class="accueil">
-        <h1>Paul Berthelot</h1>
-        <h2>Développeur Web Junior</h2>
+
+    <div class="profil">
+        <h2>Paul Berthelot</h2>
+        <h3>Age : 20 ans</h3>
     </div>
 
 </body>
