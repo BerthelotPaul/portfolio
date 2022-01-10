@@ -27,32 +27,40 @@ body {
     align-items: center;
 }
 
-.profil {
+.profil{
     display: flex;
     position: fixed;
-    top: 40%;
-    left: 52%;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    top: 30%;
+    left: 26%;
+    background-color: #000000;
+    width: 50%;
+    padding: 2%;
+    border-radius: 6px;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
 }
 
-
-/** Balise CSS **/
-
-/* Titre de niveau 1 */
-h1 {
-    font-size: 60px;
-    color: aliceblue;
+.profil>h1{
+    font-size: 170%;
+    margin-bottom: 1%;
+}
+.profil>*{
+    margin-bottom: 1%;
 }
 
-/* Titre de niveau 2 */
-h2 {
-    font-size: 20px;
-    color: aliceblue;
+input{
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    padding: 1%;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border: 2px solid green;
 }
-
-h3 {
-    font-size: 20px;
-    color: aliceblue;
+input:hover{
+    background-color: rgb(236, 140, 140);
+    border: 2px solid rgb(236, 140, 140) ;
 }
