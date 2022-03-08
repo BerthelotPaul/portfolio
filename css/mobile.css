@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+
+    /* Taille écran et visualisation*/
+    body{
+        background-color: rgb(123, 125, 230);
+    }
+
+    #left {
+        float: left;
+        position: fixed;
+        background: rgb(15, 15, 15);
+        width: 15%;
+        height: 140vh;
+        color: white;
+    }
+
+
+
+
+}

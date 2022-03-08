@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: Poppins;
+}
+
+#left {
+    float: left;
+    position: fixed;
+    background: rgb(15, 15, 15);
+    width: 20%;
+    height: 100vh;
+    color: white;
+}
+
+#right {
+    float: right;
+    width: 80%;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation */
+
+.navigation>* {
+    margin: 10%;
+}
+
+.navigation h2 {
+    font-size: 250%;
+    padding: 1%;
+    letter-spacing: 2px;
+}
+
+.navigation h3 {
+    font-size: 60%;
+    padding: 1%;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(15, 15, 15);
+}
+
+.navigation a:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid red;
+}
+
+
+/*** Presentation ***/
+
+.presentation {
+    height: 100vh;
+    background-image: url(../src/accueil.png);
+    background-size: cover;
+}
+
+.presentation h1 {
+    font-size: 300%;
+    background-color: rgb(15, 15, 15);
+    padding: 1%;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 4px solid rgb(15, 15, 15);
+}
+
+.rotation-presentation {
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+}
+
+/*** Titre ***/
+
+.titre {
+    margin-top: 10%;
+    color: white;
+    font-size: 200%;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+/*** A Propos ***/
+
+.a-propos {
+    height: 110vh;
+    background-image: url(../src/propos.jpg);
+    background-size: cover;
+}
+
+
+.carte-a-propos {
+    margin-top: 5%;
+    width: 30%;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 3px 4px 39px 0px rgba(0, 0, 0, 0.75);
+}
+
+.carte-a-propos>* {
+    margin-bottom: 5%;
+}
+
+.carte-a-propos h3 {
+    font-size: 200%;
+}
+
+.carte-a-propos img {
+    width: 200px;
+    border-radius: 0% 50% 0% 50%;
+}
+
+.carte-a-propos a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bolder;
+}
+
+.lien-carte-a-propos {
+    display: flex;
+    margin-top: 5%;
+}
+
+/*** Competences ***/
+
+.competences {
+    height: 110vh;
+    background-image: url(../src/competences.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competences .titre {
+    margin-top: 7%;
+}
+
+.carte-competences {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.carte-competences div {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carte-competences a {
+    font-size: 150%;
+    color: white;
+    background: rgb(15, 15, 15);
+    padding: 1%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.carte-competences a:hover {
+    background: rgb(196, 39, 39);
+
+}
+
+.carte-competences h2 {
+    font-size: 150%;
+    margin-bottom: 15%;
+}
+
+/*** Experiences ***/
+
+.experiences {
+    height: 110vh;
+    background-image: url(../src/experiences.jpg);
+    background-size: cover;
+}
+
+.global-experiences {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.carte-experiences {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.carte-experiences div {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carte-experiences h2 {
+    font-size: 250%;
+    margin-bottom: 4%;
+}
+
+.carte-experiences h3 {
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.carte-experiences img {
+    margin-top: 9%;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+.carte-experiences p {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 100%;
+}
+
+.lien-experiences {
+    margin-top: 3%;
+    background: rgb(15, 15, 15);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.lien-experiences a {
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.lien-experiences:hover {
+    background: rgb(196, 39, 39);
+}
+
+/*** Demonstration ***/
+
+.demonstration {
+    height: 110vh;
+    background-image: url(../src/demonstration.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demo {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.demo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.demo div>* {
+    margin: 2%;
+}
+
+.demo h2 {
+    font-size: 200%;
+}
+
+.demo img {
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.demo a {
+    color: white;
+    text-decoration: none;
+    margin: 2%;
+}
+
+/*** Contact ***/
+.contact {
+    height: 100vh;
+    background-image: url(../src/contact.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carte-contact {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.carte-contact div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte-contact h2 {
+    font-size: 180%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(248, 232, 232);
+    color: rgb(248, 232, 232);
+    font-weight: bold;
+}
+
+.carte-contact h3 {
+    font-size: 140%;
+}
+
+.carte-contact a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
