@@ -75,7 +75,7 @@
                         <h5>PHP</h5>
                         <progress value="60" max="100"></progress>
                         <h5>JS</h5>
-                        <progress value="20" max="100"></progress>
+                        <progress value="40" max="100"></progress>
                     </div>
 
                     <div>
@@ -99,7 +99,7 @@
                     </div>
 
 
-                    <div>
+                    <div class="resDel">
                         <h2>Outils</h2>
                         <h5>Photoshop</h5>
                         <progress value="50" max="100"></progress>
@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="carte-competences">
-                    <div>
+                    <div class="resDel">
                         <h2>Gestion de Projet</h2>
                         <h5>Travail d'équipe</h5>
                         <progress value="80" max="100"></progress>
@@ -125,7 +125,7 @@
 
                     <a target="_blank" href="https://github.com/BerthelotPaul/notions-vues">Repertoire de mes compétences</a>
 
-                    <div>
+                    <div class="resDel">
                         <h2>Framework</h2>
                         <h5>Bootstrap</h5>
                         <progress value="60" max="100"></progress>
