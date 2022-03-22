@@ -66,7 +66,7 @@
                     <h1>Compétences</h1>
                 </div>
                 <div class="carte-competences">
-                    <div>
+                    <div class="carte-competences--box1">
                         <h2>Language Web</h2>
                         <h5>HTML</h5>
                         <progress value="80" max="100"></progress>
@@ -78,7 +78,7 @@
                         <progress value="40" max="100"></progress>
                     </div>
 
-                    <div>
+                    <div class="carte-competences--box2">
                         <h2>Language App</h2>
                         <h5>Java</h5>
                         <progress value="60" max="100"></progress>
@@ -88,7 +88,7 @@
                         <progress value="50" max="100"></progress>
                     </div>
 
-                    <div>
+                    <div class="carte-competences--box3">
                         <h2>Réseaux et OS</h2>
                         <h5>Windows</h5>
                         <progress value="60" max="100"></progress>
@@ -99,7 +99,7 @@
                     </div>
 
 
-                    <div class="resDel">
+                    <div class="carte-competences--box4">
                         <h2>Outils</h2>
                         <h5>Photoshop</h5>
                         <progress value="50" max="100"></progress>
@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="carte-competences">
-                    <div class="resDel">
+                    <div class="carte-competences--box5">
                         <h2>Gestion de Projet</h2>
                         <h5>Travail d'équipe</h5>
                         <progress value="80" max="100"></progress>
@@ -125,7 +125,7 @@
 
                     <a target="_blank" href="https://github.com/BerthelotPaul/notions-vues">Repertoire de mes compétences</a>
 
-                    <div class="resDel">
+                    <div class="carte-competences--box6">
                         <h2>Framework</h2>
                         <h5>Bootstrap</h5>
                         <progress value="60" max="100"></progress>
@@ -140,11 +140,9 @@
                     <h1>Expériences</h1>
                 </div>
 
-                <div class="carte-experiences">
+                <div class="cadre">
                     <div>
                         <h2>CHSM</h2>
-                        <h3>Stage</h3>
-                        <h3>3 mois</h3>
                         <p>Développement web pour <br>
                             une solution d'outils intranet <br>
                             HTML , CSS , PHP , JS , <br>
@@ -154,8 +152,6 @@
                     </div>
                     <div>
                         <h2>ENSM</h2>
-                        <h3>Stage</h3>
-                        <h3>3 mois</h3>
                         <p>Maintenance informatique ,<br>
                             Projet HTML / CSS pour <br>
                             un plan intérractif de réseau
@@ -165,8 +161,6 @@
 
                     <div>
                         <h2>Ouest PC</h2>
-                        <h3>Stage</h3>
-                        <h3>3 mois</h3>
                         <p>Maintenance informatique ,<br>
                             assitance utilisateurs <br>
                         </p>
@@ -184,7 +178,7 @@
                     <h1>Projets</h1>
                 </div>
 
-                <div class="demo">
+                <div class="cadre">
                     <div>
                         <h2>Webtools</h2>
                         <p>Collection d'outils web sur une <br>
@@ -214,21 +208,6 @@
 
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="contact" id="ancreContact">
                 <div class="titre">
                     <h1>Contact</h1>
@@ -250,7 +229,6 @@
 
     </div>
 
-
 </body>
 
 </html>
@@ -259,6 +237,8 @@
 
 
 <!-- 
+
+Les photos :
 
 Accueil // Saint Malo
 A Propos // Inconnu

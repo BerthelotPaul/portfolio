@@ -205,57 +205,6 @@ body {
     background-size: cover;
 }
 
-.global-experiences {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.carte-experiences {
-    margin-top: 6%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-
-.carte-experiences div {
-
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: rgb(15, 15, 15);
-    border-radius: 10%;
-    padding: 2%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.carte-experiences h2 {
-    font-size: 250%;
-    margin-bottom: 4%;
-}
-
-.carte-experiences h3 {
-    font-size: 150%;
-    margin-bottom: 2%;
-}
-
-.carte-experiences img {
-    margin-top: 9%;
-    border-radius: 10px;
-    width: 250px;
-    height: 200px;
-}
-
-.carte-experiences p {
-    margin-top: 3%;
-    text-align: center;
-    font-size: 100%;
-}
-
 .lien-experiences {
     margin-top: 3%;
     background: rgb(15, 15, 15);
@@ -282,46 +231,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.demo {
-    margin-top: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.demo div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-    padding: 2%;
-    background-color: rgb(15, 15, 15);
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-}
-
-.demo div>* {
-    margin: 2%;
-}
-
-.demo h2 {
-    font-size: 200%;
-}
-
-.demo img {
-    width: 95%;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
-.demo a {
-    color: white;
-    text-decoration: none;
-    margin: 2%;
 }
 
 /*** Contact ***/
@@ -370,4 +279,40 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+/******/
+
+.cadre {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cadre div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.cadre div>* {
+    margin: 2%;
+}
+
+.cadre h2 {
+    font-size: 200%;
+}
+
+.cadre img {
+    width: 95%;
+    border-radius: 10px;
+    border: 1px solid black;
 }
