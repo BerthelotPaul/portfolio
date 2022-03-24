@@ -5,20 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paul Berthelot</title>
-
-    <!-- Icone du site -->
     <link rel="icon" href="./src/logo.ico">
-
-    <!-- Lien vers le CSS-->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 1280px)" href="./css/mobile.css" />
-
 </head>
 
 <body>
-
-    <!-- Lien pour le texte slide / présentation (Jquery / TypeJS-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="./inc/fonctions/rotationTexte.js"></script>
@@ -53,7 +46,7 @@
                         Je suis actuellement en recherche d'alternance pour un titre de Concepteur
                         Développeur d'Applications.
                     </p>
-                    <img src="./src/test.jpg" alt="">
+                    <img src="./src/paul.png" alt="">
                     <div class="lien-carte-a-propos">
                         <a target="_blank" href="https://github.com/BerthelotPaul">GitHub</a>
                         <a target="_blank" href="https://fr.linkedin.com/in/paul-berthelot-012198198">Linkdin</a>
