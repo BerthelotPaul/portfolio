@@ -170,7 +170,6 @@
                 <div class="titre">
                     <h1>Projets</h1>
                 </div>
-
                 <div class="cadre">
                     <div>
                         <h2>Webtools</h2>
@@ -180,7 +179,6 @@
                         </p>
                         <img src="./src/webtools.png" alt="">
                     </div>
-
                     <div>
                         <h2>Kaiseki</h2>
                         <p>Site internet de review et <br>
@@ -197,10 +195,7 @@
                         <img src="./src/portfolio.png" alt="">
                     </div>
                 </div>
-
-
             </div>
-
             <div class="contact" id="ancreContact">
                 <div class="titre">
                     <h1>Contact</h1>
@@ -219,25 +214,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-
 </body>
 
 </html>
-
-
-
-
-<!-- 
-
-Les photos :
-
-Accueil // Saint Malo
-A Propos // Inconnu
-Competenecs // Photo de eberhard grossgasteiger provenant de Pexels
-Experiences // Photo de Roberto Nickson provenant de Pexels
-Demonstration // Photo de mike sember provenant de Pexels
-Contact // Photo de Nixon
-
--->
