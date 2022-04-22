@@ -233,6 +233,19 @@ body {
     align-items: center;
 }
 
+.demonstration>.cadre a {
+    margin-top: 2%;
+    font-size: 100%;
+    padding: 2%;
+    color: black;
+    background: rgb(255, 255, 255);    
+    border-radius: 10px;
+    text-decoration: none;
+}
+.demonstration>.cadre a:hover {   
+    background-color: rgb(227, 58, 58);
+}
+
 /*** Contact ***/
 .contact {
     height: 100vh;

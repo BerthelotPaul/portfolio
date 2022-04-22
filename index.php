@@ -178,21 +178,25 @@
                             du personnel.
                         </p>
                         <img src="./src/webtools.png" alt="">
+                        <a href="">Voir plus</a>
                     </div>
                     <div>
-                        <h2>Kaiseki</h2>
-                        <p>Site internet de review et <br>
-                            de création d'articles. <br>
-                            (Projet perso fictif)
+                        <h2>MMO</h2>
+                        <p>Solution légère et lourde<br>
+                            de gestion d'emprunt de livre<br>
+                            pour une Bibliotheque.
                         </p>
-                        <img src="./src/kaiseki.png" alt="">
+                        <img src="./src/mmo.png" alt="">
+                        <a href="">Voir plus</a>
                     </div>
                     <div>
                         <h2>Portfolio</h2>
-                        <p>Site web actuel pour me <br>
-                            montrer en visibilité.
+                        <p>Site web actuel <br>
+                        pour montrer en visibilité <br>
+                        et pour valider mon BTS
                         </p>
                         <img src="./src/portfolio.png" alt="">
+                        <a href="">Voir plus</a>
                     </div>
                 </div>
             </div>
