@@ -178,7 +178,7 @@
                             du personnel.
                         </p>
                         <img src="./src/webtools.png" alt="">
-                        <a href="">Voir plus</a>
+                        <a target="_blank" href="./src/stage_chsm.pdf">Voir plus</a>
                     </div>
                     <div>
                         <h2>MMO</h2>
@@ -187,16 +187,16 @@
                             pour une Bibliotheque.
                         </p>
                         <img src="./src/mmo.png" alt="">
-                        <a href="">Voir plus</a>
+                        <a target="_blank" href="./src/ppe.pdf">Voir plus</a>
                     </div>
                     <div>
-                        <h2>Portfolio</h2>
-                        <p>Site web actuel <br>
-                        pour montrer en visibilité <br>
-                        et pour valider mon BTS
+                        <h2>Veille</h2>
+                        <p>Pendant mon apprentissage<br>
+                            en complement je pratique <br>
+                            la veille d'information sur l'informatique.
                         </p>
-                        <img src="./src/portfolio.png" alt="">
-                        <a href="">Voir plus</a>
+                        <img src="./src/veille.jpg" alt="">
+                        <a target="_blank" href="./src/veille-informatique.pdf">Voir plus</a>
                     </div>
                 </div>
             </div>
