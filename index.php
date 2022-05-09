@@ -162,7 +162,7 @@
                 </div>
 
                 <div class="lien-experiences">
-                    <a target="_blank" href="./src/Paul_Berthelot_CV.pdf">Mon CV</a>
+                    <a target="_blank" href="./src/PaulBerthelot_CV.pdf">Mon CV</a>
                 </div>
 
             </div>
